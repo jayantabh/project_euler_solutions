@@ -1,6 +1,6 @@
 import time
 
-#Direct List Comprehension
+#Dynamic Programming
 print("Dynamic Programming:")
 
 m1_start_time = time.time()
@@ -18,7 +18,7 @@ def even_fibonnaci(limit, num1, num2, sum):
 
 print("Answer: " + str(even_fibonnaci(limit, 2, 1, 0)) + "; Time: " + str(time.time() - m1_start_time))
 
-#Sum Formula
+#Straightforward Loop
 print("\nStraightforward Loop:")
 
 fibn1 = 2
