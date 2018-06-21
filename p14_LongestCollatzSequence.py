@@ -2,8 +2,8 @@ import time
 from math import sqrt, log
 from collections import defaultdict
 
-#Get all prime factors and use formula till we find the number:
-print("Formula and all prime factors:")
+#Recursive Memoization:
+print("Recursive Memoization:")
 
 m1_start_time = time.time()
 max_check = 1000000
